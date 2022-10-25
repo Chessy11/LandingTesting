@@ -1,0 +1,18 @@
+HTTrack3.49-2 launched on Tue, 25 Oct 2022 22:19:17 at https://arguss.co/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://arguss.co/ -O "/home/OffPower/Work/LadingPlatform" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:19:19	Warning: 	Note: due to https://arguss.co remote robots.txt rules, links beginning with these path will be forbidden: / (see in the options to disable this)
+22:19:36	Warning: 	Moved Permanently for s.w.org/
+22:19:36	Warning: 	File has moved from s.w.org/ to https://wordpress.org/
+22:19:37	Warning: 	Warning: store text/html without scan: /home/OffPower/Work/LadingPlatform/gmpg.org/xfn/.html
+22:19:37	Warning: 	Warning: store text/html without scan: /home/OffPower/Work/LadingPlatform/gmpg.org/xfn/intro.html
+22:19:37	Warning: 	Warning: store text/html without scan: /home/OffPower/Work/LadingPlatform/gmpg.org/xfn/faq.html
+22:19:37	Warning: 	Warning: store text/css without scan: /home/OffPower/Work/LadingPlatform/gmpg.org/xfn/default.css
+
+HTTrack Website Copier/3.49-2 mirror complete in 20 seconds : 16 links scanned, 11 files written (558851 bytes overall) [228197 bytes received at 11409 bytes/sec], 455004 bytes transferred using HTTP compression in 8 files, ratio 25%, 1.5 requests per connection
+(No errors, 7 warnings, 0 messages)
